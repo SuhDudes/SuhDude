@@ -1,0 +1,6 @@
+framework module Pods_SuhDudeTests {
+  umbrella header "Pods-SuhDudeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
