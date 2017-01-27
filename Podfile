@@ -6,6 +6,7 @@ target 'SuhDude' do
   use_frameworks!
 
   # Pods for SuhDude
+  pod 'Firebase/Core'
 
   target 'SuhDudeTests' do
     inherit! :search_paths
