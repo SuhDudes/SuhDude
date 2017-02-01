@@ -112,6 +112,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		616AB3F41E4187FE004D6D15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61886B841E3972D300C20CDB /* Assets.xcassets */,
+				61886B861E3972D300C20CDB /* LaunchScreen.storyboard */,
+				61886B891E3972D300C20CDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		61886B711E3972D200C20CDB = {
 			isa = PBXGroup;
 			children = (
@@ -137,12 +147,10 @@
 		61886B7C1E3972D200C20CDB /* SuhDude */ = {
 			isa = PBXGroup;
 			children = (
+				616AB3F41E4187FE004D6D15 /* Supporting Files */,
 				61886B7D1E3972D300C20CDB /* AppDelegate.swift */,
 				61886B7F1E3972D300C20CDB /* ViewController.swift */,
 				61886B811E3972D300C20CDB /* Main.storyboard */,
-				61886B841E3972D300C20CDB /* Assets.xcassets */,
-				61886B861E3972D300C20CDB /* LaunchScreen.storyboard */,
-				61886B891E3972D300C20CDB /* Info.plist */,
 			);
 			path = SuhDude;
 			sourceTree = "<group>";
@@ -707,6 +715,7 @@
 				61886BA41E3972D300C20CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61886BA51E3972D300C20CDB /* Build configuration list for PBXNativeTarget "SuhDudeTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +724,7 @@
 				61886BA71E3972D300C20CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61886BA81E3972D300C20CDB /* Build configuration list for PBXNativeTarget "SuhDudeUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +733,7 @@
 				61886BAA1E3972D300C20CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
